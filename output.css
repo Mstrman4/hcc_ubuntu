@@ -645,6 +645,7 @@ video {
   width: 100%;
 }
 
+<<<<<<< HEAD
 .w-10 {
   width: 2.5rem;
 }
@@ -661,6 +662,8 @@ video {
   flex-direction: column;
 }
 
+=======
+>>>>>>> refs/remotes/origin/main
 .flex-col-reverse {
   flex-direction: column-reverse;
 }
@@ -669,6 +672,7 @@ video {
   flex-wrap: wrap;
 }
 
+<<<<<<< HEAD
 .items-center {
   align-items: center;
 }
@@ -782,11 +786,14 @@ video {
   font-weight: 600;
 }
 
+=======
+>>>>>>> refs/remotes/origin/main
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+<<<<<<< HEAD
 .text-gray-500 {
   --tw-text-opacity: 1;
   color: rgb(107 114 128 / var(--tw-text-opacity));
@@ -834,6 +841,8 @@ video {
   --tw-ring-color: rgb(229 231 235 / var(--tw-ring-opacity));
 }
 
+=======
+>>>>>>> refs/remotes/origin/main
 @media (min-width: 768px) {
   .md\:order-1 {
     order: 1;
