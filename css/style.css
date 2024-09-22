@@ -5,3 +5,12 @@
     background-position: center;
     background-size: cover;
 }
+
+@font-face {
+    font-family: Bakh;
+    src: url(../font/YekanBakh-Bold.ttf);
+}
+
+*{
+    font-family: Yekan Bakh;
+}
