@@ -1,4 +1,4 @@
-.header{
+/* .header{
     background-image: url(../img/8\ 1.png);
     height: 100vh;
     background-repeat: no-repeat;
@@ -6,11 +6,60 @@
     background-size: cover;
 }
 
-@font-face {
-    font-family: Bakh;
-    src: url(../font/YekanBakh-Bold.ttf);
-}
+#sec2{
+    background-image: url(../img/bg-sec-2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}  
+
+
 
 *{
-    font-family: Yekan Bakh;
+    font-family: Yekan Bakh
+}
+html{
+    scroll-behavior: smooth;
+} */
+
+/* #sec3{
+    background-image: url(../img/bg-sec-3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+} */
+ .bg-sec4{
+    background-image: url(../img/bg-sec-4.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.slider {
+    display: flex;
+    transition: transform 1.0s ease-in-out;
+}
+
+
+
+.active {
+    display: block;
+}
+
+
+
+
+
+.thumbnail {
+    cursor: pointer;
+    margin: 0 5px;
+    border-radius: 10px;
+    object-fit: cover;
+    transition: opacity 0.3s;
+}
+
+.active-thumbnail {
+    opacity: 0.1;
+    width: 5%;
 }

@@ -1,0 +1,14 @@
+.thumbnail {
+    cursor: pointer;
+    margin: 0 5px;
+    border-radius: 10px;
+    object-fit: cover;
+    transition: opacity 0.3s;
+}
+
+.active-thumbnail {
+    transform: translate(0px, -35%);
+
+
+ 
+}
