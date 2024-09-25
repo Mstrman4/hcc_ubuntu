@@ -1,4 +1,4 @@
-/* .header{
+.header{
     background-image: url(../img/8\ 1.png);
     height: 100vh;
     background-repeat: no-repeat;
@@ -20,14 +20,14 @@
 }
 html{
     scroll-behavior: smooth;
-} */
+}
 
-/* #sec3{
+#sec3{
     background-image: url(../img/bg-sec-3.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-} */
+}
  .bg-sec4{
     background-image: url(../img/bg-sec-4.png);
     background-repeat: no-repeat;
