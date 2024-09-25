@@ -49,7 +49,7 @@ class sec4 extends HTMLElement {
   connectedCallback() {
 
     
-
+this.className="m-auto"
 
 
 
