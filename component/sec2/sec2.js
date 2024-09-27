@@ -43,6 +43,7 @@ template.innerHTML = `
         
     </div>
 
+
 `
 class sec2 extends HTMLElement {
   constructor() {
@@ -55,7 +56,7 @@ class sec2 extends HTMLElement {
 
   connectedCallback() {
 
-    this.className=" md:h-[100vh] pt-6 flex items-center sec2 "
+    this.className="  pt-6 flex items-center sec2 flex-col "
 
   }
 }

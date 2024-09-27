@@ -28,4 +28,43 @@ $.querySelector("header").appendChild(mh)
 $.querySelector("#sec2").appendChild(secs2)
 $.querySelector("#sec3").appendChild(secs3)
 $.querySelector(".bg-sec4").appendChild(secs4)
-$.querySelector(".bg-sec4").insertAdjacentHTML("beforeend",`<a href="#" class=" text-center  p-4">ccc</a>`)
+
+
+
+//اسکرولر
+$.querySelector(".header").insertAdjacentHTML("beforeend",`   <div class="flex m-7   flex-col text-white text-center">
+        <a href="#sec2" class="font-light  text-2xl ">
+        <p>معرفی</p> 
+        <i class="fa-solid fa-chevron-down"></i>
+        </a>
+    </div>`)
+
+
+$.querySelector("#sec2").insertAdjacentHTML("beforeend",`   <div class="flex p-7   flex-col text-white text-center">
+        <a href="#sec3" class="font-light  text-2xl ">
+        <p>محل و تاریخ برگزاری</p> 
+        <i class="fa-solid fa-chevron-down"></i>
+        </a>
+    </div>`)
+
+$.querySelector("#sec3").insertAdjacentHTML("beforeend",`   <div class="flex p-7   flex-col text-white text-center">
+        <a href="#sec4" class="font-light  text-2xl ">
+        <p>ارایه دهنده </p> 
+        <i class="fa-solid fa-chevron-down"></i>
+        </a>
+    </div>`)
+
+$.querySelector("#sec4").insertAdjacentHTML("beforeend",`   <div class="flex p-7   flex-col text-white text-center">
+        <a href="#sec5" class="font-light  text-2xl ">
+        <p>اهداف</p> 
+        <i class="fa-solid fa-chevron-down"></i>
+        </a>
+    </div>`)
+$.querySelector("#sec5").insertAdjacentHTML("beforeend",`   <div class="flex p-7   flex-col text-white text-center">
+        <a href="#" class="font-light  text-2xl ">
+        <p>اهداف</p> 
+        <i class="fa-solid fa-chevron-down"></i>
+        </a>
+    </div>`)
+
+

@@ -109,33 +109,33 @@ this.className="m-auto"
                     // کنترل اینکه اگر اسلاید انتخابی از تعداد کل بیشتر یا کمتر باشد
                     if (n >= slides.length) {
                         slideIndex = 0;
-                        console.log('slideIndex set to 0 (looping to first slide)');
+                   
                     }
                     if (n < 0) {
                         slideIndex = slides.length - 1;
-                        console.log('slideIndex set to last slide:', slideIndex);
+                  
                     }
                 
                     // حذف کلاس "active" از همه اسلایدها
-                    console.log('Removing active class from all slides');
+               
                     slides.forEach((slide, index) => {
-                        console.log(`Slide ${index}: removing active class`);
+                       
                         slide.classList.add('hidden');
                     });
                 
                     // حذف کلاس "active-thumbnail" از همه تصاویر کوچک
-                    console.log('Removing active-thumbnail class from all thumbnails');
+    
                     thumbnails.forEach((thumbnail, index) => {
-                        console.log(`Thumbnail ${index}: removing active-thumbnail class`);
+                 
                         thumbnail.classList.remove('active-thumbnail');
                     });
                 
                     // افزودن کلاس "active" به اسلاید انتخاب‌شده
-                    console.log('Adding active class to slide:', slideIndex);
+        
                     slides[slideIndex].classList.remove('hidden');
                 
                     // افزودن کلاس "active-thumbnail" به تصویر کوچک انتخاب‌شده
-                    console.log('Adding active-thumbnail class to thumbnail:', slideIndex);
+                 
                     thumbnails[slideIndex].classList.add('active-thumbnail');
                 }
                 
