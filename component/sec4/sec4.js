@@ -10,9 +10,9 @@ let listOf = [
 const template = document.createElement('template');
 
 template.innerHTML = `
-<link rel="stylesheet" href="../css/output.css">
+<link rel="stylesheet" href="../output.css">
+<link rel="stylesheet" href="../css/all.min.css">
 <link rel="stylesheet" href="../css/menu.css">
- <link rel="stylesheet" href="../css/all.min.css">
 
   <div class="container" >
     
@@ -59,7 +59,7 @@ this.className="m-auto"
 
                 listOf.forEach((data)=>{
 
-                    let btnimg=`   <img class="thumbnail bg-slate-500 " src="${data.miniimg}" alt="Thumbnail 1" onclick="currentSlide(1)">`
+                    let btnimg=`   <img class="thumbnail  " src="${data.miniimg}" alt="Thumbnail 1" onclick="currentSlide(1)">`
 
                     let them = `  <div class="slide hidden  w-full">
                     <div class="content flex flex-col md:flex-row   ">
