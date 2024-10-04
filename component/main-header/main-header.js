@@ -16,6 +16,8 @@ template.innerHTML = `
                 <div class="img w-full md:w-6/12"> 
                     <img src="img/Group 4.png" alt="">
                 </div>
+
+                
             </div> 
 
 `

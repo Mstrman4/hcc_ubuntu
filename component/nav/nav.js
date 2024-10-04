@@ -8,7 +8,7 @@ template.innerHTML = `
 
 
      <nav class=" border-gray-200">
-            <div class="max-w-screen-xxl flex flex-wrap items-center md:flex-row-reverse justify-between mx-auto p-4">
+            <div class="max-w-screen-xxl  flex flex-wrap items-center md:flex-row-reverse justify-between mx-auto p-4">
               
               <button id="nav-t" data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
                   <span class="sr-only">Open main menu</span>
@@ -17,17 +17,17 @@ template.innerHTML = `
                   </svg>
                   
               </button>
-              <a href="https://flowbite.com/" class="flex p-2  mt-2  bg-white rounded-md  items-center space-x-3 rtl:space-x-reverse">
+              <a href="" class="flex p-2  mt-2 md:text-base bg-white rounded-md  items-center">
              
-                <span class="self-center text-xl text-black  font-semibold  ">حمایت میکنم </span>
+                <span class="self-center text-xl  text-black  md:text-base font-semibold  ">حمایت میکنم </span>
             </a>
               
               <div class=" w-full md:block md:w-auto content-center" id="navbar-default">
               <div class=" hidden md:block hhc" > 
-                <ul class="  flex flex-col p-4 md:p-0 mt-4 md:text-xl rounded-lg  md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0  dark:bg-transparent">
+                <ul class="  flex flex-col p-4 md:p-0 mt-4 md:text-sm gap-2 lg:text-lg lg:gap-4 rounded-lg  md:flex-row gap-2  dark:bg-transparent">
                 
                   <li>
-                    <a href="#sec2" class="block py-2 px-3  text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent ml-2"> معرفی </a>
+                    <a href="#sec2" class="block py-2 px-3 hover:bg-black text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent ml-2"> معرفی </a>
                   </li>
                   <li>
                     <a href="#sec3" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">محل و تاریخ برگزاری</a>
@@ -77,6 +77,8 @@ class navs extends HTMLElement {
   }
 
   connectedCallback() {
+
+    this.classList.add("w-full")
 
     this.shadowRoot.querySelector("#nav-t").addEventListener("click", ()=>{
 
