@@ -52,5 +52,22 @@ html{
     background-position: center;
     background-size: cover;
 }
+ .bg-sec8{
+    background-image: url(../img/bg-sec-7.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+ .bg-sec9{
+    background-image: url(../img/bg-sec-9.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
 
 
+.ffd a {
+    font-weight: 800;
+    width: 100%;
+    display: block;
+}

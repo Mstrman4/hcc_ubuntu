@@ -42,7 +42,7 @@ template.innerHTML = `
             </div>
             <div class=" flex py-5 gap-3 items-center">
                 <i class=" bg-white text-2xl p-2 rounded-full text-black fa-sharp fa-solid fa-phone"></i>
-                <p class="text-2xl font-normal">09058730593 & 09012345678 </p>
+                <p class="text-2xl font-normal"> <a href="tel:09175243968">09058730593</a> &<a href="tel:09175243968">09904597715</a></p>
             </div>
 
             
