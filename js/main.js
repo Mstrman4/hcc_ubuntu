@@ -92,4 +92,6 @@ $.querySelector("#sec7").insertAdjacentHTML("beforeend",`   <div class="flex p-7
    
         </div>`)
 
+        
+
 
