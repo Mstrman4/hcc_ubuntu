@@ -2,9 +2,9 @@
 const template = document.createElement('template');
 
 let list =[
-  { img:"img/park.png", title:"پارک علم و فناوری" , des:"پارک علم و فناوری استان هرمزگان به منظور ایجاد زیرساخت های مناسب در راستای توسعه علم و فناوری"},
-  { img:"img/limo.png", title:"لیمو هاست" , des:"از تنوع سرویس‌های میزبانی وب (web hosting) تا بهینه‌ سازی سایت و مهاجرت رایگان ما تمام راه‌های منحصر به فرد "},
-  { img:"img/ramak.png", title:"رامک" , des:"شرکت فرآورده های لبنی  تولیدکننده انواع محصولات لبنی و یکی از بزرگترین زیرمجموعه های هلدینگ دلتا در ایران است "},
+  { link:"https://hmstp.ir/" , img:"img/park.png", title:"پارک علم و فناوری" , des:"پارک علم و فناوری استان هرمزگان به منظور ایجاد زیرساخت های مناسب در راستای توسعه علم و فناوری"},
+  { link:"https://limoo.host/" ,img:"img/limo.png", title:"لیمو هاست" , des:"از تنوع سرویس‌های میزبانی وب (web hosting) تا بهینه‌ سازی سایت و مهاجرت رایگان ما تمام راه‌های منحصر به فرد "},
+  { link:"https://ramakdairy.com/", img:"img/ramak.png", title:"رامک" , des:"شرکت فرآورده های لبنی  تولیدکننده انواع محصولات لبنی و یکی از بزرگترین زیرمجموعه های هلدینگ دلتا در ایران است "},
 ]
 
 template.innerHTML = `
@@ -32,7 +32,7 @@ class sec7 extends HTMLElement {
     
     list.forEach( (spons)=>{
       
-      let temp = `    <div class="p-4 w-full md:w-6/12 lg:w-4/12">
+      let temp = `  <a href="${spons.link}"  class="p-4 w-full md:w-6/12 lg:w-4/12" >  <div>
           <div class="bg-white flex p-4 rounded-lg w-full  gap-2 items-center h-full">
               <img src="${spons.img}" class="h-fit" alt="">
               <div  class="flex flex-col gap-3">
@@ -40,7 +40,7 @@ class sec7 extends HTMLElement {
                   <P class=" font-light text-xl md:text-lg   ">${spons.des}</P>
               </div>
           </div>
-      </div>` 
+      </div> </a> ` 
 
       this.shadowRoot.querySelector(".cons").insertAdjacentHTML("beforeend",temp)
 

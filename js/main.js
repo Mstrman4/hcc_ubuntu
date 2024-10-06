@@ -61,7 +61,7 @@ $.querySelector("#sec2").insertAdjacentHTML("beforeend",`   <div class="flex p-7
 
 $.querySelector("#sec3").insertAdjacentHTML("beforeend",`   <div class="flex p-7   flex-col text-white text-center">
         <a href="#sec4" class="font-light  text-2xl ">
-        <p>ارایه دهنده </p> 
+        <p>ارائه دهنده </p> 
         <i class="fa-solid fa-chevron-down"></i>
         </a>
     </div>`)

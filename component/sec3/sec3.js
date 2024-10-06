@@ -25,7 +25,7 @@ template.innerHTML = `
 </div>
 <div class=" flex p-5  md:p-6 gap-3 items-center">
     <i class="fa-solid bg-white text-xs p-2 rounded-full text-black fa-sharp fa-solid fa-clock"></i>
-    <p class="text-2xl font-normal">از ساعت 1 الی 9 شب</p>
+    <p class="text-2xl font-normal">از ساعت 17 الی 22 شب</p>
 </div>
 
 
@@ -38,7 +38,7 @@ template.innerHTML = `
             
             <div class=" flex py-5 gap-3 items-center">
                 <i class="fa-solid bg-white text-2xl p-2 rounded-full text-black fa-sharp fa-solid fa-map"></i>
-                <p class="text-2xl font-extrabold">بلوار ساحلی روبروی پارک غدیر دانشگاه صنعتی امیر کبیر  طبقه دوم سالن فیلم </p>
+                <p class="text-2xl font-extrabold">بلوار ساحلی روبروی پارک غدیر دانشگاه صنعتی امیر کبیر  طبقه دوم سالن همایش </p>
             </div>
             <div class=" flex py-5 gap-3 items-center">
                 <i class=" bg-white text-2xl p-2 rounded-full text-black fa-sharp fa-solid fa-phone"></i>
