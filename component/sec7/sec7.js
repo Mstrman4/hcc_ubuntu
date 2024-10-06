@@ -4,7 +4,7 @@ const template = document.createElement('template');
 let list =[
   { link:"https://hmstp.ir/" , img:"img/park.png", title:"پارک علم و فناوری" , des:"پارک علم و فناوری استان هرمزگان به منظور ایجاد زیرساخت های مناسب در راستای توسعه علم و فناوری"},
   { link:"https://limoo.host/" ,img:"img/limo.png", title:"لیمو هاست" , des:"از تنوع سرویس‌های میزبانی وب (web hosting) تا بهینه‌ سازی سایت و مهاجرت رایگان ما تمام راه‌های منحصر به فرد "},
-  { link:"https://ramakdairy.com/", img:"img/ramak.png", title:"رامک" , des:"شرکت فرآورده های لبنی  تولیدکننده انواع محصولات لبنی و یکی از بزرگترین زیرمجموعه های هلدینگ دلتا در ایران است "},
+  // { link:"https://ramakdairy.com/", img:"img/ramak.png", title:"رامک" , des:"شرکت فرآورده های لبنی  تولیدکننده انواع محصولات لبنی و یکی از بزرگترین زیرمجموعه های هلدینگ دلتا در ایران است "},
 ]
 
 template.innerHTML = `
