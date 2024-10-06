@@ -6,6 +6,10 @@
     background-size: cover;
 }
 
+.ravesh-mini-dialog {
+    width: 95% !important;
+  }
+
 #sec2{
     background-image: url(../img/bg-sec-2.png);
     background-repeat: no-repeat;
