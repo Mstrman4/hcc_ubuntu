@@ -25,7 +25,7 @@ template.innerHTML = `
 </div>
 <div class=" flex p-5  md:p-6 gap-3 items-center">
     <i class="fa-solid bg-white text-xs p-2 rounded-full text-black fa-sharp fa-solid fa-clock"></i>
-    <p class="text-2xl font-normal">از ساعت 17 الی 22 شب</p>
+    <p class="text-2xl font-normal">از ساعت 16:30 الی 22 شب</p>
 </div>
 
 
@@ -42,7 +42,7 @@ template.innerHTML = `
             </div>
             <div class=" flex py-5 gap-3 items-center">
                 <i class=" bg-white text-2xl p-2 rounded-full text-black fa-sharp fa-solid fa-phone"></i>
-                <p class="text-2xl font-normal"> <a href="tel:09175243968">09058730593</a> &<a href="tel:09175243968">09904597715</a></p>
+                <p class="text-2xl font-normal"> <a href="tel:09175243968">09058730593</a> & <a href="tel:09175243968">09904597715</a></p>
             </div>
 
             
@@ -73,7 +73,7 @@ this.className="container m-auto p-4   items-center"
 
     function updateTimer() {
       // تاریخ 24 مهر (15 اکتبر 2024) را تنظیم می‌کنیم
-      let future = new Date('2024-10-15T00:00:00'); // تاریخ 24 مهر 1403 معادل با 15 اکتبر 2024
+      let future = new Date('2024-10-17T16:30:00'); // تاریخ 24 مهر 1403 معادل با 15 اکتبر 2024
 
       // تاریخ فعلی
       let now = new Date();
@@ -105,7 +105,7 @@ this.className="container m-auto p-4   items-center"
                 
              <div class="w-4/12 bg-white text-black flex flex-col justify-center items-center p-5 rounded-2xl text-2xl">
               <p class="font-bold">${mins}</p>
-              <p>ساعت</p>
+              <p>دقیقه</p>
           </div>`
           
 
