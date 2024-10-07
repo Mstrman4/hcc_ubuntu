@@ -47,7 +47,8 @@ template.innerHTML = `
 
             
 
-           
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3548.975865748142!2d56.33143182435134!3d27.18849531566394!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ef9d6fd39e08bb3%3A0x1cb4bda897e37b89!2sAmirKabir%20University%2CBandarabbas%20Campus!5e0!3m2!1sen!2sus!4v1727110889225!5m2!1sen!2sus" width="100%"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            
 
         </div>
 
