@@ -9,17 +9,7 @@
    
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>جشن انتشار اوبونتو</title>
-    <script>
-        function deleteCookie(cookieName) {
-    document.cookie = `${cookieName}=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;`;
-}
 
-// مثال: حذف کوکی به نام "myCookie"
-deleteCookie('NID');
-deleteCookie('DV');
-deleteCookie('AEC');
-
-    </script>
 </head>
 <body >
 
@@ -176,7 +166,16 @@ deleteCookie('AEC');
 
 
 
-    
+<script>
+    function deleteCookie(name) {
+        document.cookie = name + '=; expires=Thu, 01 Jan 1970 00:00:00; path=/;';
+    }
+
+    // کوکی‌های مورد نظر را حذف کنید
+    deleteCookie('AEC');
+    deleteCookie('NID');
+</script>
+
     <script src="js/main.js" type="module"></script>
 
 </body>
