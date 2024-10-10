@@ -4,6 +4,7 @@ const template = document.createElement('template');
 let list =[
   { link:"https://bandarabbas.aut.ac.ir/" , img:"img/AMIRKABIR.png", title:"دانشگاه امیرکبیر " , des:"دانشگاه صنعتی امیر کبیر حوضه کشتی سازی"},
   { link:"https://limoo.host/" ,img:"img/limo.png", title:"لیمو هاست" , des:"از تنوع سرویس‌های میزبانی وب (web hosting) تا بهینه‌ سازی سایت و مهاجرت رایگان ما تمام راه‌های منحصر به فرد "},
+  { link:"https://mitadent.ir/" ,img:"img/arman.png", title:" ارمان نیرو" , des:"شرکت آرمان‌نیرو هرمزگان از سال ۱۳۷۴ در زمینه برق و ساختمان فعالیت می‌‌کند"},
   { link:"https://www.instagram.com/zhstudiio" ,img:"img/zhin.png", title:"استدیو ژین" , des:"ارائه خدمات حرفه‌ای ادیت ویدیو، طراحی بنر و پوستر، و لوگوموشن؛ کمک می‌کنیم تا محتوای بصری خود را به شکلی خلاقانه و منحصر به فرد ارائه دهید."},
   { link:"https://Arkadevelop.com" ,img:"img/arka.png", title:"ارکا develop" , des:"تیم آرکا توسعه هدف توسعه نرم افزارهای کارآمد و با کیفیت با استفاده از تکنولوژی های روز دنیا آغاز به کار نمود"},
   { link:"https://www.instagram.com/metakish" ,img:"img/fulad.png", title:"فولاد سدید کیش " , des:" شرکت فولاد سدید سپهر کیش سال ها حضور خوشنام در بازار فولاد ایران  محکم تر و سخت تر از فولاد"},
